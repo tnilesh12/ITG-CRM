@@ -1,0 +1,31 @@
+# dart run package_rename
+package_rename_config:
+  android:
+    app_name: IT Geeks CRM 
+    package_name: com.itgeeks.crm
+    # override_old_package: com.itgeeks.crm
+
+  ios:
+    app_name: IT Geeks CRM
+    bundle_name: com.itgeeks.crm
+    package_name: com.itgeeks.crm
+
+  web:
+    app_name: IT Geeks CRM
+    description: com.itgeeks.crm
+
+  linux:
+    app_name: IT Geeks CRM
+    package_name: com.itgeeks.crm
+    exe_name: IT-Geeks-CRM
+
+  windows:
+    app_name: IT Geeks CRM
+    organization: IT Geeks
+    copyright_notice: Copyright © 2025 IT Geeks. All rights reserved.
+    exe_name: IT-Geeks-CRM
+
+  macos:
+    app_name: IT Geeks CRM
+    package_name: com.itgeeks.crm
+    copyright_notice: Copyright © 2025 IT Geeks. All rights reserved.

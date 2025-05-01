@@ -1,0 +1,16 @@
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  web:
+    generate: true
+    image_path:  "assets/app_logo/App-Icon.jpg"
+    background_color: "#FFFFFF"
+    theme_color: "#FFFFFF"
+  windows:
+    generate: true
+    image_path:  "assets/app_logo/App-Icon.jpg"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path:  "assets/app_logo/App-Icon.jpg"
