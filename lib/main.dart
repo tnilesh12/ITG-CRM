@@ -25,9 +25,9 @@ void main() async {
     initializationSettings,
   );
 
-  final macosPlugin = await flutterLocalNotificationsPlugin
-      .resolvePlatformSpecificImplementation<MacOSFlutterLocalNotificationsPlugin>();
-  final granted = macosPlugin?.requestPermissions(alert: true, badge: true, sound: true);
+  // final macosPlugin = await flutterLocalNotificationsPlugin
+  //     .resolvePlatformSpecificImplementation<MacOSFlutterLocalNotificationsPlugin>();
+  // final granted = macosPlugin?.requestPermissions(alert: true, badge: true, sound: true);
 
   runApp(MyApp(
     flutterLocalNotificationsPlugin: flutterLocalNotificationsPlugin,
